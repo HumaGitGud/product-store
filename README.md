@@ -52,7 +52,7 @@ Server will be running at http://localhost:3000
 
 Folder Structure
 
-.
+.  
 ├── db               # Database connection  
 ├── models           # Sequelize models  
 ├── controllers      # Controller functions  

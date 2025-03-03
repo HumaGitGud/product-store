@@ -33,12 +33,12 @@ Install Dependencies:
 * Configure Environment Variables
 * Create a .env file in the project root with the following variables:
 
-DB_NAME=db_mname
-DB_USER=username
-DB_PASSWORD=user_password
-DB_HOST=db
-DB_PORT=3307
-DB_DIALECT=mysql
+DB_NAME=db_mname  
+DB_USER=username  
+DB_PASSWORD=user_password  
+DB_HOST=db  
+DB_PORT=3307  
+DB_DIALECT=mysql  
 
 Database Setup with Docker:
 To start MySQL and phpMyAdmin containers:

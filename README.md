@@ -50,8 +50,7 @@ To start MySQL and phpMyAdmin containers:
 
 Server will be running at http://localhost:3000
 
-Folder Structure
-
+Folder Structure:
 .  
 ├── db               # Database connection  
 ├── models           # Sequelize models  

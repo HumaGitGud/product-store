@@ -1,0 +1,21 @@
+extends layout 
+
+block head
+    link(rel="stylesheet", href="/css/item.css")
+    
+block home-content
+
+block content 
+    .product-detail 
+        img(src=product.image, alt=product.name)
+        h2 #{product.name}
+        p #{product.description}
+        p Price: $#{product.price}
+
+        h3 Features: 
+        ul 
+            each feature in product.features 
+                li #{feature}
+                
+        a(href="/products/all") Back to All Products 
+        a(href=`/products/${product.category}`) Back to #{product.category}

@@ -1,0 +1,23 @@
+extends layout
+
+block head
+    link(rel="stylesheet", href="/css/category.css")
+
+block home-content
+
+block content
+    if message
+        p.message= message
+    else
+        h2 Products in #{category}
+        .products 
+            each product in productList 
+                .card 
+                    img(src=product.image, alt=product.name)
+                    h4 #{product.name}
+                    p $#{product.price}
+                    p #{product.description}
+                    ul 
+                        each feature in product.features 
+                            li #{feature}
+                    a(href=`/products/product/${product.id}`) View Details

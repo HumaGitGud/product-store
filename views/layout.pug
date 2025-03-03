@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Awesome Store
+        link(rel="stylesheet", href="/css/styles.css")
+        link(rel="icon", href="/images/smile.png", type="image/png")
+        block head
+    body 
+        header 
+            nav 
+                ul 
+                    li: a(href="/") Home 
+                    li: a(href="/products/all") All Products 
+                    li: a(href="/products/Electronics") Electronics 
+                    li: a(href="/products/Furniture") Furniture 
+                    li: a(href="/products/Clothing") Clothing 
+
+        div#home-welcome    
+            block home-content
+                h1 Welcome to the Product Store 
+                p Browse our categories to find the perfect products for you!
+                a(href="/products/all") View All Products 
+                a(href="/products/form/add") Add a new product
+            
+            // placeholder for other pages that extend this one
+            block content 
+
+        footer 
+            p © 2025 Product Store. All rights reserved.

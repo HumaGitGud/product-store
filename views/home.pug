@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+    .categories 
+        each category in categories 
+            .card 
+                h3 #{category}
+                a(href=`/products/${category}`) View Products

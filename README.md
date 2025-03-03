@@ -53,10 +53,10 @@ Server will be running at http://localhost:3000
 Folder Structure
 
 .
-├── db               # Database connection
-├── models           # Sequelize models
-├── controllers      # Controller functions
-├── routes           # Express routes
-├── views            # Pug templates
-├── public           # CSS and static files
-└── scripts          # Database seeding scripts
+├── db               # Database connection  
+├── models           # Sequelize models  
+├── controllers      # Controller functions  
+├── routes           # Express routes  
+├── views            # Pug templates  
+├── public           # CSS and static files  
+└── scripts          # Database seeding scripts  
